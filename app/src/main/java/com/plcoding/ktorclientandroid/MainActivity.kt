@@ -32,6 +32,7 @@ class MainActivity : ComponentActivity() {
                     value = service.getPosts()
                 }
             )
+            println(posts)
             KtorClientAndroidTheme {
                 Surface(color = MaterialTheme.colors.background) {
                     LazyColumn {
